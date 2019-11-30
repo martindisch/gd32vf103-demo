@@ -1,3 +1,6 @@
+//! This example will alternate PA2 between low and high. If you connect a
+//! standard LED (protected with a 220 ohm resistor), you can see it blink.
+
 #![no_std]
 #![no_main]
 
