@@ -1,0 +1,22 @@
+[package]
+name = "gd32vf103-demo"
+version = "0.1.0"
+authors = ["Martin Disch <martindisch@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+panic-halt = "0.2.0"
+riscv = "0.5.4"
+riscv-rt = "0.6.1"
+gd32vf103-hal = { git = "https://github.com/gd32v-rust/gd32vf103-hal", rev = "ca41c2cf8319c4a404c471528d04ee8160dc4ee9" }
+
+# this lets you use `cargo fix`!
+[[bin]]
+name = "gd32vf103-demo"
+test = false
+bench = false
+
+[profile.release]
+codegen-units = 1 # better optimizations
+debug = true      # symbols are nice and they don't increase the size on Flash
+lto = true        # better optimizations
