@@ -8,7 +8,8 @@ edition = "2018"
 panic-halt = "0.2.0"
 riscv = "0.5.4"
 riscv-rt = "0.6.1"
-gd32vf103-hal = { git = "https://github.com/gd32v-rust/gd32vf103-hal", rev = "ca41c2cf8319c4a404c471528d04ee8160dc4ee9" }
+embedded-hal = "0.2.3"
+gd32vf103-hal = { git = "https://github.com/gd32v-rust/gd32vf103-hal", rev = "892cb47ffd3a8cdf0fa2b51f9af402be6bfc4f53" }
 
 # this lets you use `cargo fix`!
 [[bin]]

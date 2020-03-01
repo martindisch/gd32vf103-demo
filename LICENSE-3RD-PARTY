@@ -3,6 +3,7 @@ The MIT License
 
 applies to:
 - panic-halt, Copyright (c) 2018 Jorge Aparicio
+- embedded-hal, Copyright (c) 2017-2018 Jorge Aparicio
 - gd32vf103-hal, Copyright 2019 Luo Jia
 -------------------------------------------------------------------------------
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -28,6 +29,7 @@ The Apache License
 
 applies to:
 - panic-halt
+- embedded-hal
 -------------------------------------------------------------------------------
                                  Apache License
                            Version 2.0, January 2004
