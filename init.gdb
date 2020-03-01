@@ -5,6 +5,10 @@ set remotetimeout 240
 
 set print asm-demangle on
 
+break DefaultHandler
+break HardFault
+break rust_begin_unwind
+
 break main
 
 load
